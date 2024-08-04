@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.ysme.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "ysme.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ConnectionMixin",
+    "TimerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
